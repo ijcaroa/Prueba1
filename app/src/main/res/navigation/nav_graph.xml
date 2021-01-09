@@ -41,7 +41,7 @@
         android:label="fragment_looser"
         tools:layout="@layout/fragment_looser" >
         <action
-            android:id="@+id/action_looserFragment_to_triviaFragment2"
-            app:destination="@id/triviaFragment" />
+            android:id="@+id/action_looserFragment_to_titleFragment22"
+            app:destination="@id/titleFragment2" />
     </fragment>
 </navigation>

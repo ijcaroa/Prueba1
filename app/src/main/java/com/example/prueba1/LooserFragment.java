@@ -44,10 +44,11 @@ public class LooserFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         String perdedor = getString(R.string.Perdedor,loosername);
         mBinding.tVPerdedor.setText(perdedor);
+
         mBinding.buttonBackLoser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Navigation.findNavController(mBinding.getRoot()).navigate(R.id.action_looserFragment_to_triviaFragment2);
+              Navigation.findNavController(mBinding.getRoot()).navigate(R.id.action_looserFragment_to_titleFragment22);
             }
         });
     }

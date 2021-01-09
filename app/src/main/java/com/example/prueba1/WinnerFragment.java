@@ -51,6 +51,7 @@ public class WinnerFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         String ganador = getString(R.string.Ganador,winname);
         mBindig.tVGanador.setText(ganador);
+
         mBindig.buttonBackWin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
