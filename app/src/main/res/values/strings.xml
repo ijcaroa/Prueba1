@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Ganador">Genial %1$s ganaste.</string>
+    <string name="Perdedor">Bueno %1$s te equivocaste. ¡Inténtalo otra vez!</string>
+    <string name="saludo">Bienvenido  %1$s</string>
+
+
+</resources>
